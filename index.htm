@@ -22,7 +22,7 @@
   <script src="js/libs/inputmask.min.js"></script>
   <script src="js/libs/just-validate.min.js"></script>
   <script src="https://api-maps.yandex.ru/2.1/?apikey=вашAPI-ключ&lang=ru_RU"></script>
-  <script src="js/main.js"></script>
+  <script defer src="js/index.js"></script>
   <title>Blanchard</title>
 </head>
 
@@ -58,9 +58,6 @@
               </li>
               <li class="nav__element">
                 <a class="nav__link background-focus" href="#events" data-scroll="events">События</a>
-              </li>
-              <li class="nav__element">
-                <a class="nav__link background-focus" href="#">Издания</a>
               </li>
               <li class="nav__element">
                 <a class="nav__link background-focus" href="#projects" data-scroll="projects">Проекты</a>
@@ -137,6 +134,18 @@
                 <li class="dropdown__item">
                   <a class="dropdown__link dropdown__link-verrocchio" href="#">Верроккьо</a>
                 </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link dropdown__link-tintoretto" href="#">Тинторетто</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link dropdown__link-friedrich" href="#">Фридрих</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link dropdown__link-leonardo" href="#">Леонардо</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link dropdown__link-verrocchio" href="#">Верроккьо</a>
+                </li>
               </ul>
             </div>
           </li>
@@ -150,6 +159,18 @@
             </button>
             <div class="directions-art__item-list dropdown">
               <ul class="dropdown__list list-reset">
+                <li class="dropdown__item">
+                  <a class="dropdown__link dropdown__link-monet" href="#">Моне</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link dropdown__link-sisley" href="#">Сислей</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link dropdown__link-manet" href="#">Мане</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link dropdown__link-renoir" href="#">Ренуар</a>
+                </li>
                 <li class="dropdown__item">
                   <a class="dropdown__link dropdown__link-monet" href="#">Моне</a>
                 </li>
@@ -187,6 +208,18 @@
                 <li class="dropdown__item">
                   <a class="dropdown__link dropdown__link-seurat" href="#">Сёра</a>
                 </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link dropdown__link-van-gogh" href="#">Ван Гог</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link dropdown__link-cezanne" href="#">Сезанн</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link dropdown__link-gauguin" href="#">Гоген</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link dropdown__link-seurat" href="#">Сёра</a>
+                </li>
               </ul>
             </div>
           </li>
@@ -212,6 +245,18 @@
                 <li class="dropdown__item">
                   <a class="dropdown__link dropdown__link-picasso" href="#">Пикассо</a>
                 </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link dropdown__link-kandinsky" href="#">Кандинский</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link dropdown__link-marinetti" href="#">Маринетти</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link dropdown__link-malevich" href="#">Малевич</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link dropdown__link-picasso" href="#">Пикассо</a>
+                </li>
               </ul>
             </div>
           </li>
@@ -225,6 +270,18 @@
             </button>
             <div class="directions-art__item-list dropdown">
               <ul class="dropdown__list list-reset">
+                <li class="dropdown__item">
+                  <a class="dropdown__link dropdown__link-carrа" href="#">Карра</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link dropdown__link-pratella" href="#">Прателла</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link dropdown__link-severini" href="#">Северини</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link dropdown__link-balla" href="#">Балла</a>
+                </li>
                 <li class="dropdown__item">
                   <a class="dropdown__link dropdown__link-carrа" href="#">Карра</a>
                 </li>
@@ -835,7 +892,8 @@
           фиксирует необходимость своевременного выполнения сверхзадачи. А&nbsp;ещё независимые государства смешаны
           с&nbsp;не уникальными данными до&nbsp;степени совершенной неузнаваемости,
           из-за чего возрастает их&nbsp;статус бесполезности. Прежде всего, постоянное информационно-пропагандистское
-          <button class="projects__description-tooltip projects__description-tooltip_first btn-reset" aria-label="Показать подсказку">
+          <button class="projects__description-tooltip projects__description-tooltip_first btn-reset"
+            aria-label="Показать подсказку">
             <svg width="16" height="16" viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M15.5 8C15.5 12.1421 12.1421 15.5 8 15.5C3.85786 15.5 0.5 12.1421 0.5 8C0.5 3.85786 3.85786 0.5 8 0.5C12.1421 0.5 15.5 3.85786 15.5 8Z"
@@ -847,7 +905,8 @@
           </button>
           обеспечение нашей деятельности однозначно фиксирует необходимость экономической целесообразности принимаемых
           решений. И&nbsp;нет сомнений, что действия представителей оппозиции могут быть рассмотрены
-          <button class="projects__description-tooltip projects__description-tooltip_second btn-reset" aria-label="Показать подсказку">
+          <button class="projects__description-tooltip projects__description-tooltip_second btn-reset"
+            aria-label="Показать подсказку">
             <svg width="16" height="16" viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M15.5 8C15.5 12.1421 12.1421 15.5 8 15.5C3.85786 15.5 0.5 12.1421 0.5 8C0.5 3.85786 3.85786 0.5 8 0.5C12.1421 0.5 15.5 3.85786 15.5 8Z"
@@ -858,7 +917,8 @@
             </svg>
           </button>
           исключительно в&nbsp;разрезе маркетинговых и&nbsp;финансовых
-          <button class="projects__description-tooltip projects__description-tooltip_third btn-reset" aria-label="Показать подсказку">
+          <button class="projects__description-tooltip projects__description-tooltip_third btn-reset"
+            aria-label="Показать подсказку">
             <svg width="16" height="16" viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M15.5 8C15.5 12.1421 12.1421 15.5 8 15.5C3.85786 15.5 0.5 12.1421 0.5 8C0.5 3.85786 3.85786 0.5 8 0.5C12.1421 0.5 15.5 3.85786 15.5 8Z"
@@ -871,7 +931,8 @@
           предпосылок. Банальные, но неопровержимые выводы, а&nbsp;также представители современных социальных
           резервов призывают нас к&nbsp;новым свершениям, которые, в&nbsp;свою очередь, должны быть смешаны
           с&nbsp;не&nbsp;уникальными данными до&nbsp;степени совершенной неузнаваемости. Подробнее:
-          <a class="projects__description-link background-focus" href="blanchard-art.ru/projects" target="_blank" aria-label="Ссылка на наши проекты">
+          <a class="projects__description-link background-focus" href="blanchard-art.ru/projects" target="_blank"
+            aria-label="Ссылка на наши проекты">
             blanchard-art.ru
             <span class="projects__description-link_path">/projects</span>
             <span class="projects__description-link_path-mobile">/about</span>
@@ -1015,7 +1076,8 @@
           </li>
 
           <li class="network__item">
-            <a class="network__link" href="https://www.instagram.com/" target="_blank"  aria-label="Ссылка на инстаграмм">
+            <a class="network__link" href="https://www.instagram.com/" target="_blank"
+              aria-label="Ссылка на инстаграмм">
               <svg width="45" height="45" viewbox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M18.1172 22.5C18.1172 24.8785 20.0453 26.8066 22.4238 26.8066C24.8024 26.8066 26.7305 24.8785 26.7305 22.5C26.7305 20.1215 24.8024 18.1934 22.4238 18.1934C20.0453 18.1934 18.1172 20.1215 18.1172 22.5Z" />
@@ -1028,7 +1090,7 @@
           </li>
 
           <li class="network__item">
-            <a class="network__link" href="https://www.facebook.com/" target="_blank"  aria-label="Ссылка на фейсбук">
+            <a class="network__link" href="https://www.facebook.com/" target="_blank" aria-label="Ссылка на фейсбук">
               <svg width="45" height="46" viewbox="0 0 45 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M22.5 0.952148C10.125 0.952148 0 11.1005 0 23.5995C0 34.9005 8.23499 44.2804 18.99 45.9756V30.1541H13.275V23.5995H18.99V18.6044C18.99 12.9313 22.3425 9.81218 27.495 9.81218C29.9475 9.81218 32.5125 10.2416 32.5125 10.2416V15.8243H29.6775C26.8875 15.8243 26.01 17.5647 26.01 19.3503V23.5995H32.265L31.2525 30.1541H26.01V45.9756C31.312 45.1344 36.1399 42.4169 39.6223 38.3136C43.1047 34.2103 45.012 28.9915 44.9999 23.5995C44.9999 11.1005 34.875 0.952148 22.5 0.952148Z" />
