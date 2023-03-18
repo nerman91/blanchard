@@ -392,7 +392,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   //validation
-  const formVal = new JustValidate('.contacts__form', {
+  const formValidate = new JustValidate('.contacts__form', {
     errorFieldCssClass: 'feedback-form__input_error',
     errorLabelCssClass: 'feedback-form__label-error',
     errorLabelStyle: {
@@ -405,7 +405,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const maskTel = new Inputmask('+7 (999) 999-99-99');
   maskTel.mask(formPhone);
 
-  formVal
+  formValidate
     .addField('.feedback-form__input_name', [
       {
         rule: 'required',
@@ -449,8 +449,8 @@ document.addEventListener('DOMContentLoaded', function () {
     ]);
 
   //map
-  ymaps.ready(init);
-  function init() {
+  ymaps.ready(initYMap);
+  function initYMap() {
     const myMap = new ymaps.Map('map', {
       center: [55.758504745955626, 37.59981579182233],
       zoom: 16,
